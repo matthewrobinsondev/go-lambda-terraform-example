@@ -43,5 +43,5 @@ variable "event_description" {
 variable "event_schedule_expression" {
   description = "Schedule expression for the EventBridge rule"
   type        = string
-  default     = "rate(1 minutes)"
+  default     = "rate(1 minute)"
 }
